@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-file = Path("helloworld.py")
+file = Path("..\src\helloworld.py")
 content = file.read_text(encoding="utf-8")
 char_count = len(content)
 
